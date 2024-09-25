@@ -1,0 +1,31 @@
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# virtual environment folders
+env/
+venv/
+.venv/
+
+# macOS files
+.DS_Store
+
+# moviePy temp files
+*.mp4.temp
+*.mov.temp
+*.avi.temp
+
+# log files
+*.log
+
+# image files
+*.jpg
+*.jpeg
+*.png
+*.mpo
+
+# other OS or editor specific files
+*.swp
+*.swo
