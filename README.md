@@ -1,25 +1,24 @@
-
-    # image-sequence-to-video
-    Turns an image sequence into a video while automatically resizing images and maintaining aspect ratio
+# image-sequence-to-video
+Turns an image sequence into a video while automatically resizing images and maintaining aspect ratio
     
-    ## Overview
+## Overview
     
-    This Python project processes a collection of images by resizing them while maintaining their aspect ratio and adding black padding to fit a specified resolution. After processing, the images are compiled into a video sequence. The project leverages OpenCV for image manipulation and MoviePy for creating videos from the processed images.
+This Python project processes a collection of images by resizing them while maintaining their aspect ratio and adding black padding to fit a specified resolution. After processing, the images are compiled into a video sequence. The project leverages OpenCV for image manipulation and MoviePy for creating videos from the processed images.
     
-    ## Features
+## Features
     
-    - **Image Preprocessing**: Resizes images to a given resolution while maintaining their aspect ratio and adds black padding to fit.
-    - **Video Creation**: Combines processed images into a video with a specified duration per frame.
-    - **Dynamic Naming**: Automatically creates unique output directories and video filenames to avoid overwriting existing files.
+- **Image Preprocessing**: Resizes images to a given resolution while maintaining their aspect ratio and adds black padding to fit.
+- **Video Creation**: Combines processed images into a video with a specified duration per frame.
+- **Dynamic Naming**: Automatically creates unique output directories and video filenames to avoid overwriting existing files.
     
-    ## Requirements
+## Requirements
     
-    - Python 3.7+
-    - Required libraries:
-      - OpenCV (`cv2`)
-      - MoviePy
-      - Re (for regular expressions)
-      - OS (for file management)
+- Python 3.7+
+- Required libraries:
+- OpenCV (`cv2`)
+- MoviePy
+- Re (for regular expressions)
+- OS (for file management)
     
     To install the required libraries, run:
     
